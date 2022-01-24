@@ -1,0 +1,9 @@
+{
+    "name": "Bubble Bar",
+    "description": "{PLACEHOLDER}",
+    "version": "1.0.0",
+    "author": "LuckFire#4800",
+    "theme": "./src/_theme.scss",
+    "consent": "true",
+    "license": "MIT"
+}

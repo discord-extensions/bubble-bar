@@ -1,0 +1,181 @@
+@use 'root';
+
+.channelTextArea-1VQBuV {
+    // text areas
+    .scrollableContainer-15eg7h {
+        background-color: transparent;
+    }
+    .textArea-2CLwUE {
+        border-radius: 25px;
+        background-color: var(--channeltextarea-background);
+    }
+    // buttons
+    .buttons-uaqb-5 {
+        margin-right: 0;
+    }
+    button {
+        width: 42px;
+        height: 42px;
+        margin-top: 0;
+        margin-left: 7px;
+        border-radius: 25px;
+        background-color: var(--channeltextarea-background);
+    }
+}
+
+/* [ --FORM-- ] */
+.form-3gdLxP {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 15px;
+    margin-bottom: -8px;
+    // text area
+    .textArea-2CLwUE > div {
+        left: 16px;
+    }
+    .scrollableContainer-15eg7h {
+        margin-right: -12px;
+    }
+    // buttons
+    .attachButton-1ijpt9 {
+        margin-left: -16px;
+        margin-right: 7px;
+    }
+    .separator-3ng7S5 { // send message button
+        margin-left: -4px;
+        button {
+            background-color: transparent;
+        }
+        &::before {
+            display: none;
+        }
+        .innerButton-1aF_E_ {
+            &::before {
+                z-index: -1;
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                width: 42px;
+                height: 42px;
+                border-radius: 50px;
+                transition: background-color 0.125s linear;
+            }
+            svg {
+                margin-left: -5px;
+                opacity: 0.15;
+                color: white;
+                transition: opacity 0.125s linear;
+            }
+        }
+        .button-y6hemj {
+            // button disabled
+            &[disabled] .innerButton-1aF_E_ {
+                &::before {
+                    background-color: var(--channeltextarea-background);
+                }
+            }
+            // button enabled
+            &:not([disabled]) .innerButton-1aF_E_ {
+                svg {
+                    opacity: 1;
+                }
+                &::before {
+                    background-color: var(--button-brand);
+                }
+                // for more "reactive" buttons, matches normal buttons.
+                &:hover::before {
+                    background-color: var(--button-brand-hovered);
+                }
+                &:active::before {
+                    background-color: var(--button-brand-active);
+                }
+            }
+        }
+    }
+    // containers
+    .base-3bcbY3 { // typing / slowmode
+        position: relative;
+        margin-top: -14px;
+        margin-bottom: 15px;
+        margin-left: -32px;
+        background-color: var(--background-secondary);
+        .cooldownWrapper-2k1jHK {
+            margin-right: 5px;
+        }
+    }
+    .attachedBars-2BCP3l { // main container (mainly used for replying / thread suggestion)
+        margin-top: -15px;
+        margin-right: -16px;
+        margin-bottom: 15px;
+        margin-left: -16px;
+        border-radius: 0;
+    }
+    .replyBar-1oi75v {
+        height: 36px;
+        .separator-8ngZ3p {
+            display: none;
+        }
+        .closeButton-3IEry2 {
+            position: absolute;
+            left: -20px;
+        }
+        .replyLabel-WWnhHi {
+            margin-left: 45px;
+        }
+        .colorLink-2apWfY {
+            color: var(--brand-experiment-360);
+        }
+    }
+    // attachments
+    .channelAttachmentArea-1wlgJV {
+        margin-top: -11px;
+        margin-bottom: 5px;
+    }
+    .divider-2rZFJK {
+        display: none;
+    }
+}
+// jump to present
+.jumpToPresentBar-1cEnH0 {
+    justify-content: center;
+    left: calc(100% - 56px);
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    background-color: var(--button-brand);
+    transition: background-color 0.125s linear;
+    &:hover {
+        background-color: var(--button-brand-hovered);
+    }
+    &:active {
+        margin-bottom: 10px;
+        background-color: var(--button-brand-active);
+    }
+    .barButtonMain-2GIx4o {
+        display: none;
+    }
+    .barButtonAlt-TQoCdZ {
+        font-size: 0;
+    }
+    .barButtonIcon-bMvzp2 {
+        top: 0;
+        margin-left: 0;
+        width: 30px;
+        height: 30px;
+    }
+    .spinner-2RT7ZC {
+        margin-left: 12px;
+    }
+}
+
+/* [ --EDITING-- ] */
+.channelTextArea-220_Gz > div {
+    border-radius: 25px;
+}
+
+.scrollerSpacer-3AqkT9 {
+    height: 10px;
+}
