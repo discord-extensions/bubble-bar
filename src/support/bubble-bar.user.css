@@ -1,0 +1,20 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         Bubble Bar
+    @description  Nice, rounded, bubbly chatbars. Inspired from Discord's mobile app.
+    @author       LuckFire#4800
+    @namespace    https://github.com/Discord-Theme-Addons/bubble-bar
+    @version      1.1.0
+    ==/UserStyle== */
+
+    @import url('https://discord-theme-addons.github.io/bubble-bar/src/support/compiled.css');
+
+    :root {
+        --channeltextarea-background: var(--background-secondary-alt);
+        
+        /* [ --BUTTON ACCENTS-- ] */
+        --button-brand: var(--brand-experiment);
+        --button-brand-hovered: var(--brand-experiment-560);
+        --button-brand-active: var(--brand-experiment-600);
+    }
+}

@@ -1,7 +1,7 @@
 @use 'root';
 
 .channelTextArea-1VQBuV {
-    // text areas
+    // base chatbars
     .scrollableContainer-15eg7h {
         background-color: transparent;
     }
@@ -9,7 +9,7 @@
         border-radius: 25px;
         background-color: var(--channeltextarea-background);
     }
-    // buttons
+    // base buttons
     .buttons-uaqb-5 {
         margin-right: 0;
     }
@@ -24,6 +24,9 @@
 }
 
 /* [ --FORM-- ] */
+.scrollerSpacer-3AqkT9 { // spacing from the form
+    height: 10px;
+}
 .form-3gdLxP {
     display: flex;
     flex-direction: column-reverse;
@@ -40,6 +43,12 @@
     .attachButton-1ijpt9 {
         margin-left: -16px;
         margin-right: 7px;
+        .attachButtonPlus-3IYelE {
+            d: path("M19 13.4H13.4V19H10.6V13.4H5V10.6H10.6V5H13.4V10.6H19V13.4Z")
+        }
+        .attachButtonPlay-1ATmb5 {
+            d: path("M17 21.6667L22 18.3333L17 15V21.6667Z")
+        }
     }
     .separator-3ng7S5 { // send message button
         margin-left: -4px;
@@ -49,7 +58,7 @@
         &::before {
             display: none;
         }
-        .innerButton-1aF_E_ {
+        .button-y6hemj {
             &::before {
                 z-index: -1;
                 position: absolute;
@@ -63,20 +72,20 @@
             }
             svg {
                 margin-left: -5px;
-                opacity: 0.15;
+                opacity: 0.2;
                 color: white;
                 transition: opacity 0.125s linear;
             }
         }
         .button-y6hemj {
             // button disabled
-            &[disabled] .innerButton-1aF_E_ {
+            &[disabled] {
                 &::before {
                     background-color: var(--channeltextarea-background);
                 }
             }
             // button enabled
-            &:not([disabled]) .innerButton-1aF_E_ {
+            &:not([disabled]) {
                 svg {
                     opacity: 1;
                 }
@@ -99,7 +108,7 @@
         margin-top: -14px;
         margin-bottom: 15px;
         margin-left: -32px;
-        background-color: var(--background-secondary);
+        background-color: var(--background-secondary-alt);
         .cooldownWrapper-2k1jHK {
             margin-right: 5px;
         }
@@ -110,9 +119,11 @@
         margin-bottom: 15px;
         margin-left: -16px;
         border-radius: 0;
+        background-color: var(--background-secondary-alt);
     }
     .replyBar-1oi75v {
         height: 36px;
+        background-color: var(--background-secondary-alt);
         .separator-8ngZ3p {
             display: none;
         }
@@ -126,6 +137,9 @@
         .colorLink-2apWfY {
             color: var(--brand-experiment-360);
         }
+    }
+    .threadSuggestionBar-3ExSyc {
+        background-color: var(--background-secondary-alt);
     }
     // attachments
     .channelAttachmentArea-1wlgJV {
@@ -162,20 +176,34 @@
     }
     .barButtonIcon-bMvzp2 {
         top: 0;
-        margin-left: 0;
         width: 30px;
         height: 30px;
+        margin-left: 0;
     }
     .spinner-2RT7ZC {
         margin-left: 12px;
+    }
+}
+#app-mount  {
+    .autocompleteAttached-bt_md-,
+    .autocomplete-3NRXG8 { // autocomplete popout
+        right: -16px;
+        bottom: 59px;
+        left: -16px;
+        padding-left: 6px;
+        border-radius: 0;
+        box-shadow: none;
+        background-color: var(--background-secondary-alt);
+    }
+    .autocomplete-3NRXG8 {
+        padding-left: 0;
+        .categoryHeader-OpJ1Ly {
+            background-color: var(--background-secondary-alt);
+        }
     }
 }
 
 /* [ --EDITING-- ] */
 .channelTextArea-220_Gz > div {
     border-radius: 25px;
-}
-
-.scrollerSpacer-3AqkT9 {
-    height: 10px;
 }
