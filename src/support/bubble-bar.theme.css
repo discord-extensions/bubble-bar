@@ -1,6 +1,6 @@
 /**
     * @name Bubble Bar
-    * @version 1.1.0
+    * @version 1.2.0
     * @description Nice, rounded, bubbly chatbars. Inspired from Discord's mobile app.
     * @author LuckFire#4800
     *
@@ -12,6 +12,7 @@
 
 :root {
     --channeltextarea-background: var(--background-secondary-alt);
+    --channeltextarea-caret: var(--brand-experiment-400);
     
     /* [ --BUTTON ACCENTS-- ] */
     --button-brand: var(--brand-experiment);
