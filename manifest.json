@@ -1,9 +1,8 @@
 {
     "name": "Bubble Bar",
-    "description": "Nice, rounded, bubbly chatbars. Inspired from Discord's mobile app.",
-    "version": "1.2.0",
+    "description": "A nice, rounded, bubbly chatbar.",
+    "version": "2.0.0",
     "author": "LuckFire#4800",
-    "theme": "./src/_theme.scss",
-    "consent": "true",
+    "theme": "./src/source.scss",
     "license": "MIT"
 }

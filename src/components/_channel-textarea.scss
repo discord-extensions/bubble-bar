@@ -1,0 +1,153 @@
+.chatContent-3KubbW {
+    .jumpToPresentBar-1cEnH0 {
+        display: block;
+        left: calc(100% - 50px);
+        width: 0;
+        height: 0;
+        bottom: 50px;
+        .barButtonMain-2GIx4o,
+        .spinner-2RT7ZC {
+            display: none;
+        }
+        .barButtonAlt-TQoCdZ {
+            top: 0;
+            width: 0;
+            height: 0;
+            font-size: 0;
+            .barButtonIcon-bMvzp2 {
+                z-index: 100;
+                position: absolute;
+                display: unset;
+                top: 0;
+                right: 0;
+                width: 30px;
+                height: 30px;
+                margin-left: 0;
+                padding: 9px;
+                border-radius: 50px;
+                color: var(--interactive-normal);
+                background-color: var(--background-tertiary);
+            }
+        }
+    }
+    .form-3gdLxP {
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid var(--channeltextarea-border);
+        &::before {
+            display: none;
+        }
+        .wrapper-2SplAX {
+            margin-top: -1px;
+            margin-bottom: 1px;
+            padding: 25px 0;
+            border-radius: 0;
+            .content-2M_BlY {
+                margin-left: 20px;
+            }
+            .buttonContainer-KMz3Ex {
+                margin-right: 20px;
+            }
+        }
+        .channelTextArea-1FufC0 {
+            margin: 15px 0;
+            .attachedBars-2BCP3l {
+                margin-top: -16px;
+                margin-bottom: 15px;
+                border-radius: 0;
+                background-color: var(--background-secondary-alt);
+                .replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
+                    background-color: transparent;
+                }
+            }
+            .channelAttachmentArea-HwpkuQ {
+                margin-top: -20px;
+                margin-bottom: 5px;
+                padding-bottom: 10px;
+                + .divider-2rZFJK {
+                    display: none;
+                }
+                .actionBar-1ozugS {
+                    top: 12px;
+                    right: 28px;
+                    .wrapper-2vIMkT {
+                        border-radius: 0;
+                        box-shadow: none;
+                        background-color: transparent;
+                    }
+                }
+            }
+            .inner-NQg18Y {
+                margin-left: 12px;
+                padding-left: 0;
+                .buttons-uaqb-5 {
+                    .expression-picker-chat-input-button {
+                        &:not(:nth-of-type(3)) {
+                            display: none;
+                        }
+                        &.buttonContainer-2lnNiN:nth-of-type(3) {
+                            order: -1;
+                            position: absolute;
+                            left: -50px;
+                            .button-3BaQ4X {
+                                background-color: transparent;
+                            }
+                        }
+                    }
+                    .separator-3ng7S5 {
+                        margin: 0;
+                        &::before {
+                            display: none;
+                        }
+                        .button-f2h6uQ {
+                            transition: background-color ease-in-out 175ms;
+                            .innerButton-1aF_E_ {
+                                margin: 0;
+                                padding-left: 5px;
+                                color: var(--interactive-muted);
+                                transition: color ease-in-out 175ms;
+                            }
+                            &:not([disabled]) {
+                                background-color: var(--channeltextarea-sendbutton-background);
+                                .activeButtonChild-2hgLAO, .innerButton-1aF_E_ svg {
+                                    color: var(--channeltextarea-sendbutton-icon);
+                                }
+                                &:hover {
+                                    background-color: var(--channeltextarea-sendbutton-hover);
+                                }
+                                &:active {
+                                    background-color: var(--channeltextarea-sendbutton-active);
+                                }
+                            }
+                        }
+                    }
+                }
+                .attachButton-1ijpt9 {
+                    .attachButtonPlus-3IYelE {
+                        d: path("M10.6667 4V10.6667H4V13.3333H10.6667V20H13.3333V13.3333H20V10.6667H13.3333V4H10.6667Z");
+                        fill: var(--channeltextarea-button-icon);
+                    }
+                    .attachButtonPlay-1ATmb5 {
+                        display: none;
+                    }
+                }
+            }
+            .characterCount-8yNPfb {
+                right: unset;
+                bottom: 0;
+                left: 15px;
+            }
+        }
+        .typing-2J1mQU {
+            top: -24px;
+            right: 0;
+            left: 0;
+            padding-right: 5px;
+            border-bottom: 1px solid var(--background-primary);
+            background-color: var(--background-secondary-alt);
+        }
+    }
+    .scrollerSpacer-3AqkT9 {
+        height: 25px;
+    }
+}

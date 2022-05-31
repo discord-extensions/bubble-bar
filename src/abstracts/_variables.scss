@@ -1,0 +1,19 @@
+:root {
+    /* || Main */
+    --channeltextarea-rounding: 25px;
+    --channeltextarea-background: var(--background-secondary-alt);
+    --channeltextarea-border: var(--background-secondary);
+
+    /* || Default Buttons */
+    --channeltextarea-button-rounding: 50%;
+    --channeltextarea-button-icon: var(--interactive-normal);
+    --channeltextarea-button-background: var(--channeltextarea-background);
+    --channeltextarea-button-hover: var(--background-tertiary);
+
+    /* || Accents */
+    --channeltextarea-caret: var(--brand-experiment-400);
+    --channeltextarea-sendbutton-icon: var(--brand-experiment-130);
+    --channeltextarea-sendbutton-background: var(--brand-experiment);
+    --channeltextarea-sendbutton-hover: var(--brand-experiment-460);
+    --channeltextarea-sendbutton-active: var(--brand-experiment-530);
+}
