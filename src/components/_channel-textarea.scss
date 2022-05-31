@@ -100,15 +100,18 @@
                             display: none;
                         }
                         .button-f2h6uQ {
-                            transition: background-color ease-in-out 175ms;
+                            transition: all ease-in-out 175ms;
                             .innerButton-1aF_E_ {
+                                opacity: 0.25;
                                 margin: 0;
                                 padding-left: 5px;
-                                color: var(--interactive-muted);
-                                transition: color ease-in-out 175ms;
+                                transition: all ease-in-out 175ms;
                             }
                             &:not([disabled]) {
                                 background-color: var(--channeltextarea-sendbutton-background);
+                                .innerButton-1aF_E_ {
+                                    opacity: 1;
+                                }
                                 .activeButtonChild-2hgLAO, .innerButton-1aF_E_ svg {
                                     color: var(--channeltextarea-sendbutton-icon);
                                 }

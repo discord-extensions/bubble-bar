@@ -35,13 +35,13 @@
                 transition: background-color ease-in-out 125ms;
                 &:hover:not([disabled]), &:active:not([disabled]) {
                     background-color: var(--channeltextarea-button-hover);
-                    svg {
-                        color: var(--channeltextarea-button-icon);
-                    }
+                }
+                svg {
+                    color: var(--channeltextarea-button-icon);
                 }
                 .sprite-2lxwfc {
                     margin-bottom: 2px;
-                    background-color: var(--interactive-normal);
+                    background-color: var(--channeltextarea-button-icon);
                     background-image: none !important;
                     -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDNi40NzcgMiAyIDYuNDc3IDIgMTJDMiAxNy41MjIgNi40NzcgMjIgMTIgMjJDMTcuNTIzIDIyIDIyIDE3LjUyMiAyMiAxMkMyMiA2LjQ3NyAxNy41MjMgMiAxMiAyWk04IDZDOS4xMDQgNiAxMCA2Ljg5NiAxMCA4QzEwIDkuMTA1IDkuMTA0IDEwIDggMTBDNi44OTYgMTAgNiA5LjEwNSA2IDhDNiA2Ljg5NiA2Ljg5NiA2IDggNlpNMTggMTRDMTggMTYuNjE3IDE1LjE0IDE5IDEyIDE5QzguODYgMTkgNiAxNi42MTcgNiAxNFYxM0gxOFYxNFpNMTYgMTBDMTQuODk2IDEwIDE0IDkuMTA1IDE0IDhDMTQgNi44OTYgMTQuODk2IDYgMTYgNkMxNy4xMDQgNiAxOCA2Ljg5NiAxOCA4QzE4IDkuMTA1IDE3LjEwNCAxMCAxNiAxMFoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8L3N2Zz4=);
                     mask-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDNi40NzcgMiAyIDYuNDc3IDIgMTJDMiAxNy41MjIgNi40NzcgMjIgMTIgMjJDMTcuNTIzIDIyIDIyIDE3LjUyMiAyMiAxMkMyMiA2LjQ3NyAxNy41MjMgMiAxMiAyWk04IDZDOS4xMDQgNiAxMCA2Ljg5NiAxMCA4QzEwIDkuMTA1IDkuMTA0IDEwIDggMTBDNi44OTYgMTAgNiA5LjEwNSA2IDhDNiA2Ljg5NiA2Ljg5NiA2IDggNlpNMTggMTRDMTggMTYuNjE3IDE1LjE0IDE5IDEyIDE5QzguODYgMTkgNiAxNi42MTcgNiAxNFYxM0gxOFYxNFpNMTYgMTBDMTQuODk2IDEwIDE0IDkuMTA1IDE0IDhDMTQgNi44OTYgMTQuODk2IDYgMTYgNkMxNy4xMDQgNiAxOCA2Ljg5NiAxOCA4QzE4IDkuMTA1IDE3LjEwNCAxMCAxNiAxMFoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8L3N2Zz4=);
