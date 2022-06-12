@@ -4,7 +4,7 @@
 ### **[Powercord](https://powercord.dev/) & [Vizality](https://vizality.com/)**
 Head over to your **Themes folder -> open your terminal of choice -> copy-paste the following, then press enter**:
 ```
-https://github.com/discord-extensions/bubble-bar
+git clone https://github.com/discord-extensions/bubble-bar
 ```
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
