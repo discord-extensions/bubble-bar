@@ -1,5 +1,5 @@
 .chatContent-3KubbW {
-    .jumpToPresentBar-1cEnH0 {
+    .jumpToPresentBar-1cEnH0 { // i should probably redo this
         display: block;
         left: calc(100% - 50px);
         width: 0;
@@ -26,7 +26,7 @@
                 padding: 9px;
                 border-radius: 50px;
                 color: var(--interactive-normal);
-                background-color: var(--background-tertiary);
+                background-color: var(--background-tertiary)
             }
         }
     }
@@ -37,23 +37,10 @@
         &::before {
             display: none;
         }
-        .wrapper-2SplAX {
-            margin-top: -1px;
-            margin-bottom: 1px;
-            padding: 25px 0;
-            border-radius: 0;
-            .content-2M_BlY {
-                margin-left: 20px;
-            }
-            .buttonContainer-KMz3Ex {
-                margin-right: 20px;
-            }
-        }
         .channelTextArea-1FufC0 {
-            margin: 15px 0;
+            margin: 0;
+            padding: 0;
             .attachedBars-2BCP3l {
-                margin-top: -16px;
-                margin-bottom: 15px;
                 border-radius: 0;
                 background-color: var(--background-secondary-alt);
                 .replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
@@ -61,84 +48,83 @@
                 }
             }
             .channelAttachmentArea-HwpkuQ {
-                margin-top: -20px;
+                margin-top: -11px;
                 margin-bottom: 5px;
-                padding-bottom: 10px;
+                margin-left: 0;
                 + .divider-2rZFJK {
                     display: none;
                 }
-                .actionBar-1ozugS {
-                    top: 12px;
-                    right: 28px;
-                    .wrapper-2vIMkT {
-                        border-radius: 0;
-                        box-shadow: none;
-                        background-color: transparent;
-                    }
+                .wrapper-2vIMkT {
+                    background-color: var(--background-floating);
                 }
             }
-            .inner-NQg18Y {
-                margin-left: 12px;
-                padding-left: 0;
-                .buttons-uaqb-5 {
-                    .expression-picker-chat-input-button {
-                        &:not(:nth-of-type(3)) {
-                            display: none;
-                        }
-                        &.buttonContainer-2lnNiN:nth-of-type(3) {
-                            order: -1;
-                            position: absolute;
-                            left: -50px;
-                            .button-3BaQ4X {
-                                background-color: transparent;
+            .scrollableContainer-15eg7h {
+                padding: 15px;
+                overflow-y: unset;
+                .inner-NQg18Y {
+                    padding-left: 0;
+                    width: 100%;
+                    .buttons-uaqb-5 {
+                        .expression-picker-chat-input-button {
+                            &:not(:nth-of-type(3)) {
+                                display: none;
+                            }
+                            &.buttonContainer-2lnNiN:nth-of-type(3) {
+                                order: -1;
+                                position: absolute;
+                                left: -50px;
+                                .button-f2h6uQ {
+                                    background-color: transparent;
+                                }
                             }
                         }
-                    }
-                    .separator-3ng7S5 {
-                        margin: 0;
-                        &::before {
-                            display: none;
-                        }
-                        .button-f2h6uQ {
-                            transition: all ease-in-out 175ms;
-                            .innerButton-1aF_E_ {
-                                opacity: 0.25;
-                                margin: 0;
-                                padding-left: 5px;
-                                transition: all ease-in-out 175ms;
+                        .separator-3ng7S5 {
+                            margin: 0;
+                            &::before {
+                                display: none;
                             }
-                            &:not([disabled]) {
-                                background-color: var(--channeltextarea-sendbutton-background);
+                            .button-f2h6uQ {
+                                margin-right: 0;
                                 .innerButton-1aF_E_ {
-                                    opacity: 1;
+                                    margin-left: 2px;
+                                    margin-right: 0;
+                                    transition: background-color 200ms ease;
+                                    svg {
+                                        opacity: 0.25;
+                                        transition: all 200ms ease;
+                                    }
                                 }
-                                .activeButtonChild-2hgLAO, .innerButton-1aF_E_ svg {
-                                    color: var(--channeltextarea-sendbutton-icon);
-                                }
-                                &:hover {
-                                    background-color: var(--channeltextarea-sendbutton-hover);
-                                }
-                                &:active {
-                                    background-color: var(--channeltextarea-sendbutton-active);
+                                &:not([disabled]) {
+                                    background-color: var(--channeltextarea-sendbutton-background);
+                                    &:hover {
+                                        background-color: var(--channeltextarea-sendbutton-hover);
+                                    }
+                                    &:active {
+                                        background-color: var(--channeltextarea-sendbutton-active);
+                                    }
+                                    svg {
+                                        opacity: 1;
+                                        color: var(--channeltextarea-sendbutton-icon);
+                                    }
                                 }
                             }
                         }
                     }
-                }
-                .attachButton-1ijpt9 {
-                    .attachButtonPlus-3IYelE {
-                        d: path("M10.6667 4V10.6667H4V13.3333H10.6667V20H13.3333V13.3333H20V10.6667H13.3333V4H10.6667Z");
-                        fill: var(--channeltextarea-button-icon);
+                    .attachButton-1ijpt9 {
+                        .attachButtonPlus-3IYelE {
+                            d: path("M10.6667 4V10.6667H4V13.3333H10.6667V20H13.3333V13.3333H20V10.6667H13.3333V4H10.6667Z");
+                            fill: var(--channeltextarea-button-icon);
+                        }
+                        .attachButtonPlay-1ATmb5 {
+                            display: none;
+                        }
                     }
-                    .attachButtonPlay-1ATmb5 {
-                        display: none;
+                    .characterCount-8yNPfb {
+                        right: unset;
+                        bottom: 0;
+                        left: 15px;
                     }
                 }
-            }
-            .characterCount-8yNPfb {
-                right: unset;
-                bottom: 0;
-                left: 15px;
             }
         }
         .typing-2J1mQU {
