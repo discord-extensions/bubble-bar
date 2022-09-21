@@ -65,17 +65,16 @@
                     padding-left: 0;
                     width: 100%;
                     .buttons-uaqb-5 {
-                        .expression-picker-chat-input-button {
-                            &:not(:nth-of-type(3)) {
-                                display: none;
-                            }
-                            &.buttonContainer-2lnNiN:nth-of-type(3) {
-                                order: -1;
-                                position: absolute;
-                                left: -50px;
-                                .button-f2h6uQ {
-                                    background-color: transparent;
-                                }
+                        > button ~ .expression-picker-chat-input-button:not(:nth-child(4)) {
+                            display: none;
+                        }
+                        .emojiButton-3FRTuj {
+                            display: flex !important;
+                            order: -1;
+                            position: absolute;
+                            left: -50px;
+                            .button-f2h6uQ {
+                                background-color: transparent;
                             }
                         }
                         .separator-3ng7S5 {
