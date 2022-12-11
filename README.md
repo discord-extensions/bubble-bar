@@ -15,7 +15,7 @@ git clone https://github.com/discord-extensions/bubble-bar
 1. Install the broswer extensions for your repsective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-2. Once installed, open [this link](https://github.com/discord-extensions/bubble-bar/raw/main/clients/stylus/bubble-bar.user.css) in a new browser tab. This opens the page where you will install this userstyle.
+2. Once installed, open [this link](https://discord-extensions.github.io/bubble-bar/clients/stylus/bubble-bar.user.css) in a new browser tab. This opens the page where you will install this userstyle.
 3. Press the `Install Style` button.
 
 ###### Firefox users must have "Patch CSP to allow style assets" enabled for the theme to work. This can be found in Stylus' settings under "Advanced"
