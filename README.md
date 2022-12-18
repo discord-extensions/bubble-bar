@@ -2,13 +2,6 @@
 
 ## Downloads
 ### **[Replugged](https://replugged.dev/)**
-Before you can install for replugged, you need NodeJS & pnpm (run `npm i -g pnpm`).
-
-Head over to your **Themes folder -> open your terminal of choice -> copy-paste the following, then press enter**:
-```
-git clone https://github.com/discord-extensions/bubble-bar && cd bubble-bar && pnpm i && pnpm run build
-```
-
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
 - [Direct Download](https://github.com/discord-extensions/bubble-bar/releases/download/betterdiscord/bubble-bar.theme.css)
