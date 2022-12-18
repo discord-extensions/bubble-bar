@@ -1,45 +1,46 @@
 #app-mount {
-    // || GIF / Sticker / Emoji Drawer 
-    .drawerSizingWrapper-1txdWG {
-        right: 114px;
-        .navList-YSb9UB {
-            #emoji-picker-tab {
-                order: 1;
-                margin-left: 0;
-            }
-            #sticker-picker-tab {
-                order: 2;
-            }
-            #gif-picker-tab {
-                order: 3;
-                margin-left: 8px;
-            }
-        }
+  // || GIF / Sticker / Emoji Drawer
+  .drawerSizingWrapper-1txdWG {
+    right: 114px;
+    .navList-YSb9UB {
+      #emoji-picker-tab {
+        order: 1;
+        margin-left: 0;
+      }
+      #sticker-picker-tab {
+        order: 2;
+      }
+      #gif-picker-tab {
+        order: 3;
+        margin-left: 8px;
+      }
     }
-    // || Autocomplete
-    .autocomplete-3jLKbj {
-        bottom: 100%;
-        padding-left: 8px;
-        border-radius: 0;
-        box-shadow: none;
-        background-color: var(--background-secondary-alt);
+  }
+  // || Autocomplete
+  .autocomplete-3jLKbj {
+    bottom: 100%;
+    padding-left: 8px;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: var(--background-secondary-alt);
+  }
+  .autocomplete-3NRXG8 {
+    bottom: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: var(--background-secondary-alt);
+    .categoryHeader-OpJ1Ly {
+      background-color: var(--background-secondary-alt);
     }
+  }
+  .attachedBars-2BCP3l ~ {
+    .autocomplete-3jLKbj,
     .autocomplete-3NRXG8 {
-        bottom: 100%;
-        border-radius: 0;
-        box-shadow: none;
-        background-color: var(--background-secondary-alt);
-        .categoryHeader-OpJ1Ly {
-            background-color: var(--background-secondary-alt);
-        }
+      border-bottom: 1px solid var(--background-primary);
     }
-    .attachedBars-2BCP3l ~ {
-        .autocomplete-3jLKbj, .autocomplete-3NRXG8 {
-            border-bottom: 1px solid var(--background-primary);
-        }
-    }
-    // || Stickers
-    .stickerIconOffset-2zxofV {
-        display: none;
-    }
+  }
+  // || Stickers
+  .stickerIconOffset-2zxofV {
+    display: none;
+  }
 }

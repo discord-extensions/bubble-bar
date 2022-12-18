@@ -51,7 +51,8 @@
   background-color: var(--channeltextarea-button-background);
   transition: background-color ease-in-out 125ms;
 }
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ:hover:not([disabled]), .base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ:active:not([disabled]) {
+.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ:hover:not([disabled]),
+.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ:active:not([disabled]) {
   background-color: var(--channeltextarea-button-hover);
 }
 .base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ .sprite-2lxwfc {
@@ -126,7 +127,12 @@
   border-radius: 0;
   background-color: var(--background-secondary-alt);
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .attachedBars-2BCP3l .replyBar-1oi75v, .chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .attachedBars-2BCP3l .threadSuggestionBar-3ExSyc {
+.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .attachedBars-2BCP3l .replyBar-1oi75v,
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .attachedBars-2BCP3l
+  .threadSuggestionBar-3ExSyc {
   background-color: transparent;
 }
 .chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .channelAttachmentArea-HwpkuQ {
@@ -134,10 +140,18 @@
   margin-bottom: 5px;
   margin-left: 0;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .channelAttachmentArea-HwpkuQ + .divider-2rZFJK {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .channelAttachmentArea-HwpkuQ
+  + .divider-2rZFJK {
   display: none;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .channelAttachmentArea-HwpkuQ .wrapper-2vIMkT {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .channelAttachmentArea-HwpkuQ
+  .wrapper-2vIMkT {
   background-color: var(--background-floating);
 }
 .chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h {
@@ -148,57 +162,159 @@
   padding-left: 0;
   width: 100%;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 > button ~ .expression-picker-chat-input-button:not(:nth-child(4)) {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  > button
+  ~ .expression-picker-chat-input-button:not(:nth-child(4)) {
   display: none;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 .emojiButton-3FRTuj {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  .emojiButton-3FRTuj {
   display: flex !important;
   order: -1;
   position: absolute;
   left: -50px;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 .emojiButton-3FRTuj .button-f2h6uQ {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  .emojiButton-3FRTuj
+  .button-f2h6uQ {
   background-color: transparent;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 .separator-3ng7S5 {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  .separator-3ng7S5 {
   margin: 0;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 .separator-3ng7S5::before {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  .separator-3ng7S5::before {
   display: none;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 .separator-3ng7S5 .button-f2h6uQ {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  .separator-3ng7S5
+  .button-f2h6uQ {
   margin-right: 0;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 .separator-3ng7S5 .button-f2h6uQ .innerButton-1aF_E_ {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  .separator-3ng7S5
+  .button-f2h6uQ
+  .innerButton-1aF_E_ {
   margin-left: 2px;
   margin-right: 0;
   transition: background-color 200ms ease;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 .separator-3ng7S5 .button-f2h6uQ .innerButton-1aF_E_ svg {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  .separator-3ng7S5
+  .button-f2h6uQ
+  .innerButton-1aF_E_
+  svg {
   opacity: 0.25;
   transition: all 200ms ease;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 .separator-3ng7S5 .button-f2h6uQ:not([disabled]) {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  .separator-3ng7S5
+  .button-f2h6uQ:not([disabled]) {
   background-color: var(--channeltextarea-sendbutton-background);
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 .separator-3ng7S5 .button-f2h6uQ:not([disabled]):hover {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  .separator-3ng7S5
+  .button-f2h6uQ:not([disabled]):hover {
   background-color: var(--channeltextarea-sendbutton-hover);
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 .separator-3ng7S5 .button-f2h6uQ:not([disabled]):active {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  .separator-3ng7S5
+  .button-f2h6uQ:not([disabled]):active {
   background-color: var(--channeltextarea-sendbutton-active);
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .buttons-uaqb-5 .separator-3ng7S5 .button-f2h6uQ:not([disabled]) svg {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .buttons-uaqb-5
+  .separator-3ng7S5
+  .button-f2h6uQ:not([disabled])
+  svg {
   opacity: 1;
   color: var(--channeltextarea-sendbutton-icon);
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .attachButton-1ijpt9 .attachButtonPlus-3IYelE {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .attachButton-1ijpt9
+  .attachButtonPlus-3IYelE {
   d: path("M10.6667 4V10.6667H4V13.3333H10.6667V20H13.3333V13.3333H20V10.6667H13.3333V4H10.6667Z");
   fill: var(--channeltextarea-button-icon);
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .attachButton-1ijpt9 .attachButtonPlay-1ATmb5 {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .attachButton-1ijpt9
+  .attachButtonPlay-1ATmb5 {
   display: none;
 }
-.chatContent-3KubbW .form-3gdLxP .channelTextArea-1FufC0 .scrollableContainer-15eg7h .inner-NQg18Y .characterCount-8yNPfb {
+.chatContent-3KubbW
+  .form-3gdLxP
+  .channelTextArea-1FufC0
+  .scrollableContainer-15eg7h
+  .inner-NQg18Y
+  .characterCount-8yNPfb {
   right: unset;
   bottom: 0;
   left: 15px;
@@ -245,7 +361,8 @@
 #app-mount .autocomplete-3NRXG8 .categoryHeader-OpJ1Ly {
   background-color: var(--background-secondary-alt);
 }
-#app-mount .attachedBars-2BCP3l ~ .autocomplete-3jLKbj, #app-mount .attachedBars-2BCP3l ~ .autocomplete-3NRXG8 {
+#app-mount .attachedBars-2BCP3l ~ .autocomplete-3jLKbj,
+#app-mount .attachedBars-2BCP3l ~ .autocomplete-3NRXG8 {
   border-bottom: 1px solid var(--background-primary);
 }
 #app-mount .stickerIconOffset-2zxofV {
