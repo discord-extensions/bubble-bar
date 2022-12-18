@@ -9,7 +9,7 @@
     - **Other** `$XDG_CONFIG_HOME/replugged` or `~/.config/replugged`
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
-- [Direct Download](https://github.com/discord-extensions/bubble-bar/releases/download/betterdiscord/bubble-bar.theme.css)
+- [Direct Download](https://github.com/discord-extensions/bubble-bar/releases/latest/download/bubble-bar.theme.css)
 - [Compiled Source](https://discord-extensions.github.io/bubble-bar/src/source.css)
 
 ### **Stylus**
