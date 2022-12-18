@@ -1,8 +1,0 @@
-{
-    "name": "Bubble Bar",
-    "description": "A nice, rounded, bubbly chatbar.",
-    "version": "2.0.1",
-    "author": "LuckFire#4800",
-    "theme": "./src/source.scss",
-    "license": "MIT"
-}
