@@ -2,6 +2,11 @@
 
 ## Downloads
 ### **[Replugged](https://replugged.dev/)**
+1. Download the [.asar file](https://github.com/discord-extensions/bubble-bar/releases/download/v2.0.1/dev.LuckFire.BubbleBar.asar).
+2. Save to your replugged themes folder.
+    - Windows `%appdata%/replugged`
+    - macOS `~/Library/Application Support/replugged`
+    - Other `$XDG_CONFIG_HOME/replugged` or `~/.config/replugged`
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
 - [Direct Download](https://github.com/discord-extensions/bubble-bar/releases/download/betterdiscord/bubble-bar.theme.css)
