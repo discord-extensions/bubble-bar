@@ -1,4 +1,21 @@
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  }
+    "editor.formatOnSave": true,
+    "liveSassCompile.settings.formats":[
+      {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": "~/",
+          "indentWidth": 4
+      }
+    ],
+
+    "liveSassCompile.settings.excludeList": [
+        "/.vscode/**"
+    ],
+
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.autoprefix": [
+        "defaults"
+    ],
+}

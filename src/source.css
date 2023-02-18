@@ -41,7 +41,7 @@
 .base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .buttons-uaqb-5 {
   margin-right: 0;
 }
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ {
+.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-ejjZWC {
   width: 44px;
   height: 44px;
   margin-right: 5px;
@@ -51,11 +51,14 @@
   background-color: var(--channeltextarea-button-background);
   transition: background-color ease-in-out 125ms;
 }
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ:hover:not([disabled]),
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ:active:not([disabled]) {
+.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-ejjZWC:hover:not([disabled]),
+.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-ejjZWC:active:not([disabled]) {
   background-color: var(--channeltextarea-button-hover);
 }
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ .sprite-2lxwfc {
+.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-ejjZWC.emojiButton-1fMsf3 {
+  background-color: transparent;
+}
+.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-ejjZWC .sprite-2lxwfc {
   margin-bottom: 2px;
   background-color: var(--channeltextarea-button-icon);
   background-size: unset !important;
@@ -66,7 +69,7 @@
   transform: none !important;
   filter: none !important;
 }
-.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-f2h6uQ svg {
+.base-2jDfDU .channelTextArea-1VQBuV .inner-NQg18Y .button-ejjZWC svg {
   color: var(--channeltextarea-button-icon);
 }
 

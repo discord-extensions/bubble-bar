@@ -1,3 +1,8 @@
+# Compiling
+bd-compile/
+dev.css
+dev.scss
+
 # Logs
 logs
 *.log

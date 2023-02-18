@@ -24,7 +24,7 @@
       .buttons-uaqb-5 {
         margin-right: 0;
       }
-      .button-f2h6uQ {
+      .button-ejjZWC {
         width: 44px;
         height: 44px;
         margin-right: 5px;
@@ -36,6 +36,9 @@
         &:hover:not([disabled]),
         &:active:not([disabled]) {
           background-color: var(--channeltextarea-button-hover);
+        }
+        &.emojiButton-1fMsf3 {
+          background-color: transparent;
         }
         .sprite-2lxwfc {
           margin-bottom: 2px;
