@@ -7,10 +7,10 @@
       "discordID": "399416615742996480",
       "github": "discord-extensions"
     },
-    "version": "2.0.4",
+    "version": "2.0.5",
     "updater": {
-      "type": "github",
-      "id": "discord-extensions/bubble-bar"
+      "type": "store",
+      "id": "dev.LuckFire.BubbleBar"
     },
     "license": "MIT",
     "type": "replugged-theme",

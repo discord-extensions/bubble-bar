@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A theme template",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "build": "replugged build theme",
@@ -16,11 +16,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/config-default": "^2.8.3",
-    "@parcel/core": "^2.8.3",
-    "@parcel/transformer-sass": "^2.8.3",
-    "@types/node": "^18.11.15",
-    "prettier": "^2.8.1",
+    "@parcel/config-default": "^2.9.2",
+    "@parcel/core": "^2.9.2",
+    "@parcel/transformer-sass": "^2.9.2",
+    "@types/node": "^18.16.17",
+    "prettier": "^2.8.8",
     "replugged": "4.0.0-beta0.25"
   }
 }

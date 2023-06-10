@@ -2,7 +2,7 @@
 
 ## Downloads
 ### **[Replugged](https://replugged.dev/)**
-- [Direct Install](https://replugged.dev/install?identifier=discord-extensions/bubble-bar&source=github)
+- [Direct Install](https://replugged.dev/install?identifier=dev.LuckFire.BubbleBar)
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
 - [Direct Download](https://github.com/discord-extensions/bubble-bar/releases/latest/download/bubble-bar.theme.css)
