@@ -1,7 +1,7 @@
 {
-  "name": "theme-template",
+  "name": "bubble-bar",
   "version": "1.0.0",
-  "description": "A theme template",
+  "description": "A nice, rounded, bubbly chatbar.",
   "engines": {
     "node": ">=18.0.0"
   },
@@ -10,17 +10,16 @@
     "watch": "replugged build theme --watch",
     "bundle": "replugged bundle theme",
     "lint": "prettier ./src --check",
-    "lint:fix": "prettier ./src --write"
+    "lint:fix": "prettier ./src --write",
+    "release": "replugged release"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@parcel/config-default": "^2.9.2",
     "@parcel/core": "^2.9.2",
     "@parcel/transformer-sass": "^2.9.2",
     "@types/node": "^18.16.17",
     "prettier": "^2.8.8",
-    "replugged": "4.0.0-beta0.25"
+    "replugged": "^4.6.0"
   }
 }
