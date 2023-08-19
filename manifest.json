@@ -1,19 +1,20 @@
 {
-    "id": "dev.LuckFire.BubbleBar",
-    "name": "Bubble Bar",
-    "description": " A nice, rounded, bubbly chatbar.",
-    "author": {
-      "name": "LuckFire",
-      "discordID": "399416615742996480",
-      "github": "discord-extensions"
-    },
-    "version": "2.0.5",
-    "updater": {
-      "type": "store",
-      "id": "dev.LuckFire.BubbleBar"
-    },
-    "license": "MIT",
-    "type": "replugged-theme",
-    "main": "src/source.scss"
-  }
-  
+  "id": "dev.LuckFire.BubbleBar",
+  "name": "Bubble Bar",
+  "description": "A nice, rounded, bubbly chatbar.",
+  "author": {
+    "name": "LuckFire",
+    "discordID": "399416615742996480",
+    "github": "discord-extensions"
+  },
+  "version": "2.0.5",
+  "updater": {
+    "type": "store",
+    "id": "dev.LuckFire.BubbleBar"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "src/source.scss",
+  "source": "https://github.com/discord-extensions/bubble-bar",
+  "image": "https://cdn.discordapp.com/attachments/1142305515439923260/1142314084226842644/banner.png"
+}
