@@ -2,6 +2,7 @@
 
 ## Downloads
 ### **[Replugged](https://replugged.dev/)**
+- [Maintained by Saltssaumure ](https://github.com/MiniDiscordThemes/bubble-bar) -- please report replugged issues to them!
 - [Direct Install](https://replugged.dev/install?identifier=dev.LuckFire.BubbleBar)
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
