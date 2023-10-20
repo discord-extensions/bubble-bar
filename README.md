@@ -1,4 +1,4 @@
-<img src="./assets/banner.png">
+![banner](https://discord-extensions.github.io/assets/banners/bubble-bar.png)
 
 ---
 
@@ -24,7 +24,7 @@ https://discord-extensions.github.io/bubble-bar/src/source.css
 1. Install the broswer extensions for your repsective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-2. Once installed, open [this link](https://discord-extensions.github.io/bubble-bar/clients/stylus/bubble-bar.user.css) in a new browser tab. This opens the page where you will install this userstyle.
+2. Once installed, open [this link](https://discord-extensions.github.io/bubble-bar/clients/bubble-bar.user.css) in a new browser tab. This opens the page where you will install this userstyle.
 3. Press the `Install Style` button.
 
 ---
