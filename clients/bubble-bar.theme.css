@@ -1,3 +1,16 @@
+/**
+ * @name Bubble Bar
+ * @author LuckFire
+ * @description A nice, rounded, bubbly chatbar.
+ * @version 2.0.4
+ * @invite vYdXbEzqDs
+ * @authorId 399416615742996480
+ * @source https://github.com/discord-extensions/bubble-bar
+ * @updateUrl https://github.com/discord-extensions/bubble-bar/blob/main/clients/bubble-bar.theme.css
+ */
+
+@import url("https://discord-extensions.github.io/bubble-bar/src/source.css");
+
 :root {
   /* || Main */
   --channeltextarea-rounding: 25px;
