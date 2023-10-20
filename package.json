@@ -1,8 +1,11 @@
 {
   "name": "bubble-bar",
-  "version": "1.0.0",
+  "version": "2.0.4",
   "description": "A nice, rounded, bubbly chatbar.",
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "author": "LuckFire",
+  "license": "MIT",
+  "scripts": {
+    "dev": "theme-scss dev",
+    "build": "theme-scss build"
+  }
 }
