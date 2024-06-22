@@ -1,8 +1,8 @@
 #app-mount {
   // || GIF / Sticker / Emoji Drawer
-  .drawerSizingWrapper-1txdWG {
+  .drawerSizingWrapper_af5dbb {
     right: 114px;
-    .navList-YSb9UB {
+    .navList_af5dbb {
       #emoji-picker-tab {
         order: 1;
         margin-left: 0;
@@ -17,30 +17,30 @@
     }
   }
   // || Autocomplete
-  .autocomplete-3jLKbj {
+  .autocomplete_bea0d0 {
     bottom: 100%;
     padding-left: 8px;
     border-radius: 0;
     box-shadow: none;
     background-color: var(--background-secondary-alt);
   }
-  .autocomplete-3NRXG8 {
+  .autocomplete_f23da8 {
     bottom: 100%;
     border-radius: 0;
     box-shadow: none;
     background-color: var(--background-secondary-alt);
-    .categoryHeader-OpJ1Ly {
+    .categoryHeader_fe2299 {
       background-color: var(--background-secondary-alt);
     }
   }
-  .attachedBars-2BCP3l ~ {
-    .autocomplete-3jLKbj,
-    .autocomplete-3NRXG8 {
+  .attachedBars_d0696b ~ {
+    .autocomplete_bea0d0,
+    .autocomplete_f23da8 {
       border-bottom: 1px solid var(--background-primary);
     }
   }
   // || Stickers
-  .stickerIconOffset-2zxofV {
+  .stickerIconOffset_ccd3df {
     display: none;
   }
 }
